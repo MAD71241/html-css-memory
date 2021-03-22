@@ -12,6 +12,14 @@
     clear: both;
 }
 
+/* titolo della pagina */
+
+.main_title {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
 /* classe container */
 
 .container {
@@ -20,6 +28,8 @@
     margin: auto;
     text-align: center;
 }
+
+/* carta visibile */
 
 .element, .element_404 {
     display: inline-block;
@@ -34,15 +44,17 @@
     position: relative;
 }
 
-.main_title {
-    font-size: 5rem;
-    color: white;
-    text-align: center;
-}
+/* immagine visibile */
 
 .element img {
     display: none;
 }
+
+.title {
+    display: none;
+}
+
+/* regole hover */
 
 .element:hover img {
     display: block;
@@ -65,10 +77,6 @@
     width: 100%;
     margin: auto;
     background-color: white;
-}
-
-.title {
-    display: none;
 }
 
 /* casella scoperta */
@@ -95,3 +103,6 @@
     margin: auto;
     background-color: white;
 }
+
+/* colori del testo */
+
